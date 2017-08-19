@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
  gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt' 
 # for adding hashing to password with bycrypt
-gem 'sqlite3'
+
 # TODO sqlite 3 need to move to test and dev group once i add production group
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -41,6 +41,7 @@ gem 'autoprefixer-rails'
 gem 'rails-controller-testing'
 
 group :development, :test do
+	gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
