@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.3'
  gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt' 
 # for adding hashing to password with bycrypt
 gem 'sqlite3'
+# TODO sqlite 3 need to move to test and dev group once i add production group
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
