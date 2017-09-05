@@ -19,6 +19,8 @@ def create
       render 'new'
     end
   end
+  def profession
+  end
 
   private
 
